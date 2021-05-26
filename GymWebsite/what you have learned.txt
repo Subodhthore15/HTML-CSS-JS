@@ -1,0 +1,6 @@
+display: inline
+   -> fakt inline hot 
+
+display: inline-box
+   -> inline hot 
+   -> height width change karta yete 

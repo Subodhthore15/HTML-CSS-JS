@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subodh's Fitness</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        /* css reset */
+
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('bg.jpg');
+        }
+
+        .left {
+            position: absolute;
+            top: 20px;
+            left: 34px;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            width: 150px;
+            height: 60px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            width: 33%;
+            margin: 20px auto;
+            /* it becomes center   */
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 20px;
+
+        }
+
+        .navbar li a:hover {
+            background-color: rgb(131, 128, 128);
+            color: rgb(209, 228, 37);
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            border-radius: 3px;
+            padding: 4px 1px;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            border: 2px solid grey;
+            cursor: pointer;
+
+        }
+
+        form .btn-2 {
+            padding: 7px;
+            border: 1px solid red;
+            border-radius: 3px;
+            margin: 16px 215px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+       
+
+        .btn:hover {
+            background-color: rgb(112, 85, 85);
+            color: rgb(167, 173, 76);
+        }
+
+        form .btn-2:hover {
+            background-color: rgb(112, 85, 85);
+            color: rgb(167, 173, 76);
+        }
+
+        .container {
+            border: 2px solid yellow;
+            width: 533px;
+            margin: 92px 60px;
+            padding: 71px;
+            border-radius: 17px;
+        }
+
+        .form-group input {
+            font-size: 16px;
+            margin: 7px 151px;
+            padding: 4px;
+            text-align: center;
+            text-decoration-color: darkmagenta;
+            background-color: darkgray;
+        }
+
+        div h1 {
+            padding: 8px;
+            margin: 8px 62px;
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <!-- left box for logo -->
+            <div class="left">
+                <img src="logo.jpg" alt="">
+                <div>Subodh's Fitness</div>
+            </div>
+
+            <!-- mid box for navigation -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">BMI calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- right box for some buttons -->
+            <div class="right">
+                <button class="btn">Call us</button>
+                <button class="btn">Email us</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Join the Best gym in India</h1>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn-2">Submit</button>
+    </div>
+</body>
+
+</html>
