@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    
+    position: sticky;
+   /* * border: 3px solid orange; */ 
+    top: 3px;
+}
+#navbar li{
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    
+
+    height:20px;
+    padding: 20px;
+
+
+    }   
+    /* #navbar div:last-child {
+    margin-left: auto
+    } */
+    /* OR */
+    #navbar div{
+    margin-left: auto;
+    margin-top: 15px;
+    }
+
+  #navbar div input{
+    font-size: 14px;
+    padding: 9px 14px;
+    background: none;
+    outline: none;
+    background-color: rgb(3, 51, 65);
+    color: rgb(7, 207, 187);
+  }
+
+#navbar  li a{
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    font-size: 25px;
+    color: rgb(140, 184, 250);
+    text-decoration: none;
+}
+#navbar  li a:hover{
+    background-color: rgb(91, 183, 245);
+    border-radius: 20px;
+    color: rgb(129, 116, 116);
+    
+}
+
+
+body{
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+    /* height: 800px; */
+}
+.container{
+    /* display: flex;
+    border: 3px solid yellow;
+    flex-direction: column;
+    margin: 226px auto;
+    justify-content: center;
+    align-items: center; */
+
+    /* absolute relative to parent movement */
+    position: absolute;
+    /* border: 3px solid yellow; */
+    width: 300px;
+    top: 35%;
+    left: 40%;
+    
+
+}
+
+.container h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 13px;
+}
+
+.box{
+    color: white;
+    /* border: 2px solid rgb(47, 224, 255); */
+}
+.box input{
+    background: none;
+    border-bottom: rgb(166, 197, 28);
+    width: 75%;
+    font-size: 14px;
+    padding: 9px 14px;
+    margin: 20px 10px;
+
+    outline: none;
+    background-color: rgb(3, 51, 65);
+    color: rgb(7, 207, 187);
+
+}
+
+.btn{
+    color: blueviolet;
+    cursor: pointer;
+    margin: 3px 111px;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 8px;
+    outline: none;
+    background: none;
+    /* border:2px solid purple; */
+}
+
+.btn:hover{
+    background-color: rgb(94, 68, 94);
+}
+
+#box i{
+    padding: 0px 0px;
+}
+
+.container h1{
+    color: rgb(190, 190, 245);
+}
